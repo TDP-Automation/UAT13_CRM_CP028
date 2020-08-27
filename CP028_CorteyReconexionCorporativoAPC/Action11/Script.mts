@@ -210,7 +210,8 @@ End Sub
 Sub FlujoWIC()
 
 	If DataTable("e_WIC_ValidaCli", dtLocalsheet)="SI" Then
-	RunAction "WIC", oneIteration
+
+RunAction "WIC", oneIteration
 	End If
 
 	
